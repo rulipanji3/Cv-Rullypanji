@@ -120,27 +120,19 @@ export const EDUCATION_DATA: TimelineItem[] = [
 export const EXPERIENCE_DATA: TimelineItem[] = [
   {
     id: "exp-1",
-    title: "Junior Frontend Developer",
-    organization: "Cosmic Studio Digital",
-    period: "2024 - Sekarang",
-    description: "Mengembangkan komponen UI modern menggunakan React, Tailwind CSS, dan Framer Motion. Mengintegrasikan REST API, meningkatkan skor performa Core Web Vitals, dan memastikan responsivitas lintas perangkat.",
-    badges: ["React", "Tailwind CSS", "TypeScript", "Framer Motion", "Vite"]
+    title: "Sales Account Executive",
+    organization: "PT Eka Mas Republik",
+    period: "Maret 2026 - Juni 2026",
+    description: "Bertanggung jawab dalam membangun dan memelihara hubungan profesional dengan pelanggan, menganalisis kebutuhan solusi konektivitas telekomunikasi, merancang strategi pemasaran produk layanan internet, serta mencapai target akuisisi klien dan pertumbuhan penjualan perusahaan.",
+    badges: ["Account Management", "Client Relations", "B2B/B2C Sales", "Komunikasi & Negosiasi", "Telekomunikasi"]
   },
   {
     id: "exp-2",
-    title: "Web Developer Intern",
-    organization: "Tech Inovasi Nusantara",
-    period: "2023 - 2024",
-    description: "Berkolaborasi dalam tim agile untuk membangun modul dashboard analitik, merapikan styling sistem UI, serta menulis unit test dan dokumentasi antarmuka klien.",
-    badges: ["React.js", "REST API", "Git Flow", "UI Components"]
-  },
-  {
-    id: "exp-3",
-    title: "Freelance Frontend Web Creator",
-    organization: "Self-Employed / Freelance",
-    period: "2022 - Sekarang",
-    description: "Mengerjakan proyek pembuatan landing page UMKM, website company profile, dan aplikasi katalog interaktif dengan desain dark mode futuristik dan animasi ramah pengguna.",
-    badges: ["Client Satisfaction", "Speed Optimization", "Responsive Design"]
+    title: "IT Support (Magang)",
+    organization: "Dinkominfo Kota Pekalongan",
+    period: "Agustus 2024 - November 2024",
+    description: "Melaksanakan tugas dukungan teknis teknologi informasi di lingkungan Dinas Komunikasi dan Informatika Kota Pekalongan, meliputi pemeliharaan perangkat keras dan komputer, troubleshooting jaringan lokal (LAN/WLAN), instalasi sistem operasi dan aplikasi, serta asistensi teknis operasional harian instansi.",
+    badges: ["IT Support", "Troubleshooting Hardware & Jaringan", "Pemeliharaan Komputer", "Instalasi Sistem", "Dukungan Teknis Dinkominfo"]
   }
 ];
 
