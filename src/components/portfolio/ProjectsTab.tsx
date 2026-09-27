@@ -15,6 +15,9 @@ const TAG_COLORS: Record<string, { bg: string; border: string; text: string }> =
   'TypeScript': { bg: 'rgba(49,120,198,0.12)', border: 'rgba(49,120,198,0.35)', text: '#3178c6' },
   'Vite': { bg: 'rgba(189,52,254,0.12)', border: 'rgba(189,52,254,0.35)', text: '#bd34fe' },
   'Blade': { bg: 'rgba(255,45,85,0.12)', border: 'rgba(255,45,85,0.35)', text: '#ff2d55' },
+  'Tailwind CSS': { bg: 'rgba(56,189,248,0.12)', border: 'rgba(56,189,248,0.35)', text: '#38bdf8' },
+  'Three.js': { bg: 'rgba(255,255,255,0.12)', border: 'rgba(255,255,255,0.35)', text: '#f1f5f9' },
+  'Alpine.js': { bg: 'rgba(119,193,180,0.12)', border: 'rgba(119,193,180,0.35)', text: '#77c1b4' },
   'REST API': { bg: 'rgba(52,199,89,0.12)', border: 'rgba(52,199,89,0.35)', text: '#34c759' },
   'default': { bg: 'rgba(255,255,255,0.05)', border: 'rgba(255,255,255,0.12)', text: '#94a3b8' },
 };

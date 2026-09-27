@@ -64,8 +64,8 @@ export const PERSONAL_INFO = {
 export const STATS_DATA = [
   {
     label: "Projects & Karya",
-    value: "1+",
-    subtext: "Termasuk WebRestorant (Laravel)",
+    value: "3+",
+    subtext: "Web Apps & Fullstack Projects",
     icon: "Rocket"
   },
 
@@ -146,6 +146,30 @@ export const EXPERIENCE_DATA: TimelineItem[] = [
 
 export const PROJECTS_DATA: ProjectItem[] = [
   {
+    id: "websitesekolahSD",
+    title: "Website Sekolah & PPDB Online SDN 1 Suka Cita",
+    description: "Platform web profil sekolah dasar modern dan sistem PPDB online multi-step terintegrasi dengan animasi 3D Three.js, manajemen berkas pendaftar, dan dashboard admin.",
+    longDescription: "Aplikasi web institusi pendidikan fullstack berbasis Laravel dan Tailwind CSS v4 yang memadukan profil interaktif ramah anak dengan sistem PPDB (Penerimaan Peserta Didik Baru) online. Dilengkapi elemen animasi 3D interaktif Three.js, form pendaftaran multi-step wizard, validasi berkas otomatis, dashboard admin untuk verifikasi status seleksi siswa, serta desain sepenuhnya responsif di semua perangkat.",
+    image: "/project-sekolah-sd.png",
+    tags: ["Laravel", "Three.js", "Tailwind CSS", "MySQL", "Blade", "Vite"],
+    category: "Fullstack",
+    demoUrl: "https://github.com/rulipanji3/websitesekolahSD",
+    githubUrl: "https://github.com/rulipanji3/websitesekolahSD",
+    featured: true,
+  },
+  {
+    id: "webmamamatcha",
+    title: "Mamamatcha Gn Muria - Artisan Drink & Tea Bar",
+    description: "Modern landing page untuk outlet minuman artisan matcha dan tea bar di Purwokerto dengan Signature Bento Grid, katalog menu interaktif, dan pemesanan WhatsApp.",
+    longDescription: "Mamamatcha Gn Muria X Mustika Iced Tea & Shake adalah web landing page modern berbasis Laravel dan Tailwind CSS v4 yang dirancang khusus untuk brand minuman kekinian di area kampus Unsoed, Purwokerto. Menampilkan desain visual appetizing bernuansa hijau matcha dan warm beige, fitur interaktif Signature Bento Grid, filter menu dinamis dengan live search, ulasan Google Rating 5.0 bintang, integrasi Google Maps, serta formulir pemesanan langsung terhubung ke WhatsApp.",
+    image: "/project-mamamatcha.png",
+    tags: ["Laravel", "Tailwind CSS", "Blade", "Alpine.js", "PHP", "Vite"],
+    category: "Web App",
+    demoUrl: "https://github.com/rulipanji3/webmamamatcha",
+    githubUrl: "https://github.com/rulipanji3/webmamamatcha",
+    featured: true,
+  },
+  {
     id: "webrestorant",
     title: "WebRestorant - Warung Makan Mba Neni",
     description: "Website restoran berbasis Laravel untuk Warung Makan Mba Neni dengan fitur pemesanan, manajemen menu, dan sistem admin dashboard.",
@@ -155,7 +179,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     category: "Fullstack",
     demoUrl: "https://github.com/rulipanji3/webrestorant",
     githubUrl: "https://github.com/rulipanji3/webrestorant",
-    featured: true,
+    featured: false,
   }
 ];
 
