@@ -97,7 +97,7 @@ export const EDUCATION_DATA: TimelineItem[] = [
     organization: "Universitas Nusa Mandiri",
     period: "2026 - Sekarang",
     description: "Mempelajari algoritma pemrograman, struktur data, rekayasa perangkat lunak, sistem basis data, dan kecerdasan buatan dengan fokus konsentrasi pada pengembangan web dan aplikasi modern.",
-    badges: ["IPK 3.82", "Algoritma & Struktur Data", "Web Programming", "Software Engineering"]
+    badges: ["Algoritma & Struktur Data", "Web Programming", "Software Engineering"]
   },
   {
     id: "edu-2",
